@@ -13,15 +13,11 @@ test_dir = 'test/'  # cartella contenente i file da dare in input
 
 def prepare(filepath):
     img_array = []
-    # img_array = cv2.imread(filepath)
-    # new_array = cv2.resize(img_array, (300, 300))
     im = Image.open(filepath)
     im = im.resize((300, 300), Image.ANTIALIAS)
     img_array.append(np.array(im))
     img_array = np.array(img_array) / 255.0  # Normalize RGB
     return img_array
-    # return new_array.reshape(1, 300, 300, 3)
-
 
 mappa = {categories[0]: 0, categories[1]: 0, categories[2]: 0, categories[3]: 0}
 

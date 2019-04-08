@@ -1,5 +1,5 @@
 # Musical Instrument Classification
-## Giuseppe De Palma, Alessandro Liberato
+#### Giuseppe De Palma, Alessandro Liberato
 Lo scopo di questo progetto è stato quello di riprendere un lavoro di tesi passato e, sugli stessi
 task e dati, applicare delle tecniche di uso comune che in precedenza (nel periodo della tesi) erano
 appena emergenti e non consolidate. Tali tecniche riguardano la image classification utilizzando reti
